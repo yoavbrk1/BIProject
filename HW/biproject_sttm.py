@@ -27,18 +27,18 @@ from enum import Enum
 with open("SMWB SET.json", "r") as file:
   data = json.load(file)
   for item in data:
-    item["Account"] = str(item["Account"])
-    item["ARR"] = str(item["ARR"])
-    item["Stage"] = str(item["Stage"])
-    item["Is_Win"] = str(item["Is_Win"])
-    item["Employees size"] = str(item["Employees size"])
-    item["Country"] = str(item["Country"])
-    item["Created Date"] = str(item["Created Date"])
-    item["Closed Date"] = str(item["Closed Date"])
-    item["Month"] = str(item["Month"])
-    item["Quarter"] = str(item["Quarter"])
-    item["Closed lost reason"] = str(item["Closed lost reason"])
-    item["Closed Won reason"] = str(item["Closed Won reason"])
+    item["Account"] = item["Account"]
+    item["ARR"] = int(item["ARR"])
+    item["Stage"] = item["Stage"]
+    item["Is_Win"] = int(item["Is_Win"])
+    item["Employees size"] = int(item["Employees size"])
+    item["Country"] = item["Country"]
+    item["Created Date"] = datetime(item["Created Date"])
+    item["Closed Date"] = datetime(item["Closed Date"])
+    item["Month"] = int(item["Month"])
+    item["Quarter"] = item["Quarter"]
+    item["Closed lost reason"] = item["Closed lost reason"]
+    item["Closed Won reason"] = item["Closed Won reason"]
 
 class Interface(ABC):
 
@@ -53,8 +53,6 @@ class Interface(ABC):
     @abstractmethod
     def get(self):
         """Fetch all data """
-
-"""### TransformMask - Functions"""
 
 class TransformMask(Enum):
     # add here any masks you want 
