@@ -1,0 +1,994 @@
+[
+ {
+  "Country": "Andorra",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "United Arab Emirates",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Afghanistan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Antigua and Barbuda",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Anguilla",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Albania",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Armenia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Netherlands Antilles",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Angola",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Antarctica",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Argentina",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "American Samoa",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Austria",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Australia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Aruba",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Azerbaijan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Bosnia and Herzegovina",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Barbados",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Bangladesh",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Belgium",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Burkina Faso",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Bulgaria",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Bahrain",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Burundi",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Benin",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Bermuda",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Brunei Darussalam",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Bolivia",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Brazil",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Bahamas",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Bhutan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Bouvet Island",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Botswana",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Belarus",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Belize",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Canada",
+  "Continent": "North America"
+ },
+ {
+  "Country": "Cocos (Keeling) Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Congo, The Democratic Republic of the",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Central African Republic",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Congo",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Switzerland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Côte D'Ivoire",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Cook Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Chile",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Cameroon",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "China",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Colombia",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Costa Rica",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Cuba",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Cape Verde",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Christmas Island",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Cyprus",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Czech Republic",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Germany",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Djibouti",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Denmark",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Dominica",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Dominican Republic",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Algeria",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Ecuador",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Estonia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Egypt",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Western Sahara",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Eritrea",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Spain",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Ethiopia",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Finland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Fiji",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Falkland Islands (Malvinas)",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Micronesia, Federated States of",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Faroe Islands",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "France",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "France, Metropolitan",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Gabon",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "United Kingdom",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Grenada",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Georgia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "French Guiana",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Ghana",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Gibraltar",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Greenland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Gambia",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Guinea",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Guadeloupe",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Equatorial Guinea",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Greece",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "South Georgia and the South Sandwich Islands",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Guatemala",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Guam",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Guinea-Bissau",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Guyana",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Hong Kong",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Heard Island and McDonald Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Honduras",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Croatia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Haiti",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Hungary",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Indonesia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Ireland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Israel",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "India",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "British Indian Ocean Territory",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Iraq",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Iran, Islamic Republic of",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Iceland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Italy",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Jamaica",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Jordan",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Japan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Kenya",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Kyrgyzstan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Cambodia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Kiribati",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Comoros",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Saint Kitts and Nevis",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Korea, Democratic People's Republic of",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Korea, Republic of",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Kuwait",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Cayman Islands",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Kazakhstan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Lao People's Democratic Republic",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Lebanon",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Saint Lucia",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Liechtenstein",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Sri Lanka",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Liberia",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Lesotho",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Lithuania",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Luxembourg",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Latvia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Libya",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Morocco",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Monaco",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Moldova, Republic of",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Madagascar",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Marshall Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Macedonia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Mali",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Myanmar",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Mongolia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Macau",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Northern Mariana Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Martinique",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Mauritania",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Montserrat",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Malta",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Mauritius",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Maldives",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Malawi",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Mexico",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Malaysia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Mozambique",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Namibia",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "New Caledonia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Niger",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Norfolk Island",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Nigeria",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Nicaragua",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Netherlands",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Norway",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Nepal",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Nauru",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Niue",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "New Zealand",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Oman",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Panama",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Peru",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "French Polynesia",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Papua New Guinea",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Philippines",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Pakistan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Poland",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Saint Pierre and Miquelon",
+  "Continent": "North America"
+ },
+ {
+  "Country": "Pitcairn Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Puerto Rico",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Palestinian Territory",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Portugal",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Palau",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Paraguay",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Qatar",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Reunion",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Romania",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Russian Federation",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Rwanda",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Saudi Arabia",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Solomon Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Seychelles",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "South Sudan",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Sudan",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Sweden",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Singapore",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Saint Helena",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Slovenia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Svalbard and Jan Mayen",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Slovakia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Sierra Leone",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "San Marino",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Senegal",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Somalia",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Suriname",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Sao Tome and Principe",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "El Salvador",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Syrian Arab Republic",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Swaziland",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Turks and Caicos Islands",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Chad",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "French Southern Territories",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Togo",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Thailand",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Tajikistan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Tokelau",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Turkmenistan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Tunisia",
+  "Continent": "Arab States"
+ },
+ {
+  "Country": "Tonga",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Timor-Leste",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Turkey",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Trinidad and Tobago",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Tuvalu",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Taiwan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Tanzania, United Republic of",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Ukraine",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Uganda",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "United States Minor Outlying Islands",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "United States",
+  "Continent": "North America"
+ },
+ {
+  "Country": "Uruguay",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Uzbekistan",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Holy See (Vatican City State)",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Saint Vincent and the Grenadines",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Venezuela",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Virgin Islands, British",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Virgin Islands, U.S.",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Vietnam",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Vanuatu",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Wallis and Futuna",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Samoa",
+  "Continent": "Asia & Pacific"
+ },
+ {
+  "Country": "Yemen",
+  "Continent": "Middle east"
+ },
+ {
+  "Country": "Mayotte",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Serbia",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "South Africa",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Zambia",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Montenegro",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Zimbabwe",
+  "Continent": "Africa"
+ },
+ {
+  "Country": "Aland Islands",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Guernsey",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Isle of Man",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Jersey",
+  "Continent": "Europe"
+ },
+ {
+  "Country": "Saint Barthelemy",
+  "Continent": "South\/Latin America"
+ },
+ {
+  "Country": "Saint Martin",
+  "Continent": "South\/Latin America"
+ }
+]
