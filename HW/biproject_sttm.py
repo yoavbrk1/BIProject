@@ -9,6 +9,8 @@ Original file is located at
 
 !pip install jsonpath_ng
 
+"""### Imports"""
+
 # Commented out IPython magic to ensure Python compatibility.
 import os
 import json
@@ -21,6 +23,8 @@ from abc import ABC, abstractmethod
 from jsonpath_ng import parse
 from enum import Enum
 # %matplotlib inline
+
+"""### TransformMask - Functions"""
 
 class TransformMask(Enum):
     # add here any masks you want 
@@ -37,6 +41,9 @@ class Database:
             "transform": [],
             "mapping": []
         }
+
+        self.add_source(1, "jobTitle", "$.jobTitle", "str", True)
+
 
     def add_source(self, id, name, mapping, typo, is_required):
       self.db["source"].append({
@@ -98,6 +105,10 @@ class Source(Interface, Database):
                 return x
         return None
 
+
+
+
+
 """### Target class"""
 
 class Target(Interface, Database):
@@ -126,7 +137,7 @@ class Target(Interface, Database):
                 return x
         return None
 
-### Transform class
+"""### Transform class"""
 
 class Transform(Interface, Database):
 
