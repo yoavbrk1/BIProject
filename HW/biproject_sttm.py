@@ -63,7 +63,7 @@ class TransformMask(Enum):
 
 """### Database class"""
 
-K_list = []
+K_list = ["Account", "ARR", "Stage", "Is_Win", "Employees size", "Country", "Created Date", "Closed Date", "Month", "Quarter", "Closed lost reason", "Closed Won reason"]
 
 class Database:
     def __init__(self):
