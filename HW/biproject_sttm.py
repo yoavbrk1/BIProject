@@ -24,6 +24,36 @@ from jsonpath_ng import parse
 from enum import Enum
 # %matplotlib inline
 
+with open("SMWB SET.json", "r") as file:
+  data = json.load(file)
+  for item in data:
+    item["Account"] = str(item["Account"])
+    item["ARR"] = str(item["ARR"])
+    item["Stage"] = str(item["Stage"])
+    item["Is_Win"] = str(item["Is_Win"])
+    item["Employees size"] = str(item["Employees size"])
+    item["Country"] = str(item["Country"])
+    item["Created Date"] = str(item["Created Date"])
+    item["Closed Date"] = str(item["Closed Date"])
+    item["Month"] = str(item["Month"])
+    item["Quarter"] = str(item["Quarter"])
+    item["Closed lost reason"] = str(item["Closed lost reason"])
+    item["Closed Won reason"] = str(item["Closed Won reason"])
+
+class Interface(ABC):
+
+    @abstractmethod
+    def get_data_by_field(self, field_name):
+        """Fetch the data by given feild name """
+
+    @abstractmethod
+    def get_data_by_id(self, id):
+        """Fetch the data by given ID  """
+
+    @abstractmethod
+    def get(self):
+        """Fetch all data """
+
 """### TransformMask - Functions"""
 
 class TransformMask(Enum):
@@ -33,50 +63,72 @@ class TransformMask(Enum):
 
 """### Database class"""
 
+K_list = []
+
 class Database:
     def __init__(self):
         self.db = {
             "source": [],
             "destination": [],
-            "transform": [],
             "mapping": []
         }
 
         self.add_source(1, "jobTitle", "$.jobTitle", "str", True)
 
 
-    def add_source(self, id, name, mapping, typo, is_required):
-      self.db["source"].append({
-                    "id": id,
-                    "source_field_name": name,
-                    "source_field_mapping": mapping,
-                    "source_field_type": typo, # use python types
-                    "is_required": is_required
+    def add_source(self):
+      for i in range (1, len(K_list)+1):
+        self.db["source"].append({
+                    "id": i,
+                    "source_field_name": K_list[i-1],
+                    "source_field_mapping": K_list[i-1],
+                    "source_field_type": "str",
+                    "is_required": True,
                      })
       
-    def add_destination(self, id, job_tile_name, job_tile_mapping, typo):
-      self.db["destination"].append({
-                    "id": id,
-                    "destination_field_name": job_tile_name,
-                    "destination_field_mapping": job_tile_name_mapping,
-                    "destination_field_type": typo,
-                    "default_value": "n/a"
+    def add_destination(self):
+      for i in range (1, len(K_list)+1):
+       self.db["destination"].append({
+                    "id": i,
+                    "destination_field_name": K_list[i-1],
+                    "destination_field_mapping": K_list[i-1],
+                    "destination_field_type": "str",
+                    "default_value": "n/a",
                      })
       
-    def add_transform(self, id, action):
-       self.db["transform"].append({
-                    "id": id,
-                    "transform_mask": action
-                     })
+    def add_transform(self):
+       self.db["transform"] = [
+          {
+          "id":1
+          "transform_mask": 'CAPITAL_LETTER'
+
+          },
+          {
+          "id":2
+          "transform_mask": 'CLEAN_STRING'
+          }
+       ]
      
      
-    def add_mapping(self, id, source_id, destination_id, transform_id):
-      self.db["mapping"].append({
-                    "id": id,
-                    "mapping_source": source_id,
-                    "mapping_destination": destination_id,
-                    "mapping_transform": transform_id
+    def add_mapping(self):
+      for i in range (1, len(K_list)+1):
+        self.db["mapping"].append({
+                    "id": i,
+                    "mapping_source": i,
+                    "mapping_destination": i,
+                    "mapping_transform": i
                      })
+        
+    def data_source_target_mapping(self):
+      self.add_source()
+      self.add_destination()
+      self.add_transform()
+      self.add_mapping()
+      
+    @property
+    def get_data_source_target_mapping(self):
+        self.data_source_target_mapping()
+        return self.db
 
 """### Source class"""
 
@@ -104,10 +156,6 @@ class Source(Interface, Database):
             if x.get("id") == self.id:
                 return x
         return None
-
-
-
-
 
 """### Target class"""
 
@@ -172,6 +220,14 @@ class Mappings(Interface, Database):
     def __init__(self):
         Database.__init__(self)
 
+    def get_data_by_field(self, field_name):
+        data = self. get
+        for item in data:
+          for key, value in item.items():
+            if key == field_name:
+              return item
+        return None
+
     @property
     def get(self):
         return self.get_data_source_target_mapping.get("mapping")
@@ -182,9 +238,6 @@ class Mappings(Interface, Database):
         for x in data:
             if x.get("id").__str__() == self.id.__str__():
                 return x
-        return None
-
-    def get_data_by_field(self, field_name):
         return None
 
 """### Format Class - JSON"""
